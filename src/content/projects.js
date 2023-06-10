@@ -13,7 +13,7 @@ export const projectList = {
 			"Website for Mara Danz a swiss fashion designer. Check out her <a href='https://maradanz.com'>website</a> The website shows her collections in a interactive and unusual way. Visitors can buy her self made pieces directly on her website.",
 		links: [
 			{ text: 'Website', url: 'https://maradanz.com', shortUrl: 'maradanz.com', highlight: true },
-			{ text: 'Github', url: 'https://github.com' }
+			{ text: 'github', url: 'https://github.com' }
 		],
 		collaborators: 'KUBA Creative Services, Web Design'
 	},
@@ -28,7 +28,7 @@ export const projectList = {
 		collaborators: 'KUBA Creative Services, Web Design',
 		links: [
 			{ text: 'Website', url: 'https://filipelli.ch', shortUrl: 'filipelli.ch' },
-			{ text: 'Github', url: 'https://github.com/gusberto-hub/filipelli' }
+			{ text: 'github', url: 'https://github.com/gusberto-hub/filipelli' }
 		]
 	},
 	rifriTypo: {

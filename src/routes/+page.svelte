@@ -22,7 +22,7 @@
 	<img class="object-cover w-full max-h-full" src="./src/images/ux-ui-sketch.jpg" alt="" />
 </section>
 
-<CreativeCoding />
+<!-- <CreativeCoding /> -->
 
 <section class="">
 	<div>

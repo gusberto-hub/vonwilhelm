@@ -45,7 +45,7 @@ body {
 }
 
 section {
-	@apply px-4 md:pl-48;
+	@apply px-4;
 }
 
 .haha {
