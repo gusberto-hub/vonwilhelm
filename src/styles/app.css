@@ -31,10 +31,8 @@ h6 {
 }
 
 html {
-	scroll-behavior: smooth;
-	scroll-padding-top: 4rem;
 	font-size: 18px;
-	@apply scroll-smooth md:scroll-p-16 scroll-p-32 text-base;
+	@apply scroll-smooth md:scroll-p-16 scroll-p-32;
 }
 
 body {
