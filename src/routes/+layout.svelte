@@ -8,8 +8,6 @@
 	const checkTarget = (e) => {
 		if (e.target.tagName === 'H2') {
 			contentFromHover = e.target.textContent;
-		} else if (e.target.tagName === 'A') {
-			contentFromHover = 'LINK';
 		} else {
 			contentFromHover = '';
 		}
@@ -42,10 +40,7 @@
 	on:mouseover={checkTarget}
 	on:focus={checkTarget}
 >
-	<div class="fixed left-0 top-0 -z-10">
-		<P5 {sketch} />
-	</div>
-	<aside class="hidden md:block sticky left-0 top-0 w-48 p-2">
+	<aside class="hidden md:block sticky left-0 top-0 p-2 flex-shrink-0">
 		<a href="/" class=""><Logo /></a>
 		<nav class="mt-12">
 			<ul class="flex flex-col">
@@ -57,7 +52,10 @@
 		</nav>
 	</aside>
 
-	<main class="w-full">
+	<main class="w-full flex-1">
 		<slot />
 	</main>
+	<div class="fixed left-0 top-0 -z-10">
+		<P5 {sketch} />
+	</div>
 </div>

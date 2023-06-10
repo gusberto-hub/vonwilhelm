@@ -32,19 +32,27 @@
 							{/each}
 						</ul>
 					</div>
-					<div class="flex gap-2">
-						{#if project.links}
-							{#each project.links as link}
-								<a
-									class={`btn-link ${link.highlight ? 'bg-red-500' : ''}`}
-									href={link.url}
-									target="_blank"
-								>
-									{link.shortUrl ? link.shortUrl : link.text}
-								</a>
-							{/each}
-						{/if}
+					<div class="col-span-2">
+						<div class="flex gap-2">
+							{#if project.links}
+								{#each project.links as link}
+									<a
+										class={`btn-link ${link.highlight && 'btn-link-highlight'}`}
+										href={link.url}
+										target="_blank"
+									>
+										{link.shortUrl ? link.shortUrl : link.text}
+									</a>
+								{/each}
+							{/if}
+						</div>
 					</div>
+					{#if project.collaborators}
+						<div class="col-span-2">
+							<h3 class="text-sm">collaborators</h3>
+							<p>{@html project.collaborators}</p>
+						</div>
+					{/if}
 				</div>
 			</li>
 		{/each}

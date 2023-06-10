@@ -3,31 +3,26 @@ export const projectList = {
 		title: 'Mara Danz',
 		year: '2021',
 		role: ['web development', 'web design', 'consulting'],
-		tech_stack: [
-			'html, sass, js',
-			'gsap for scroll animations',
-			'kirby cms',
-			'snipcart e-commerce'
-		],
+		tech_stack: ['gsap for scroll animations', 'kirby cms', 'snipcart e-commerce'],
 		about_text:
 			"Website for Mara Danz a swiss fashion designer. Check out her <a href='https://maradanz.com'>website</a> The website shows her collections in a interactive and unusual way. Visitors can buy her self made pieces directly on her website.",
 		links: [
-			{ text: 'Website', url: 'https://maradanz.com', shortUrl: 'maradanz.com', highlight: true },
+			{ url: 'https://maradanz.com', shortUrl: 'maradanz.com', highlight: true },
 			{ text: 'github', url: 'https://github.com' }
 		],
-		collaborators: 'KUBA Creative Services, Web Design'
+		collaborators: 'CI: <a href="https://kuba.studio" target="_blank">KUBA CS</a>'
 	},
 
 	filipelli: {
 		title: 'Filipelli',
 		year: '2020-2021',
 		role: ['web design', 'web development', 'project management'],
-		tech_stack: ['html, sass, js, php(laravel)', 'kirby cms', 'snipcart e-commerce'],
+		tech_stack: ['kirby cms', 'snipcart e-commerce'],
 		about_text:
 			'Website for Mara Danz a swiss fashion designer. The website shows her collections in a interactive and unusual way. Visitors can buy her self made pieces directly on her website.',
-		collaborators: 'KUBA Creative Services, Web Design',
+		collaborators: 'Web Design: <a href="https://kuba.studio" target="_blank">KUBA CS</a>',
 		links: [
-			{ text: 'Website', url: 'https://filipelli.ch', shortUrl: 'filipelli.ch' },
+			{ url: 'https://filipelli.ch', shortUrl: 'filipelli.ch', highlight: true },
 			{ text: 'github', url: 'https://github.com/gusberto-hub/filipelli' }
 		]
 	},
@@ -35,11 +30,11 @@ export const projectList = {
 		title: 'Richard Frick',
 		year: '2021',
 		role: ['web development'],
-		tech_stack: ['php', 'html', 'sass'],
-		collaborators: 'KUBA Creative Services, Web Design',
+		tech_stack: ['kirby cms', 'snipcart e-commerce', 'swiper.js'],
+		collaborators: 'web design: <a href="https://kuba.studio" target="_blank">KUBA CS</a>',
 		about_text:
 			'Website for Mara Danz a swiss fashion designer. The website shows her collections in a interactive and unusual way. Visitors can buy her self made pieces directly on her website.',
-		links: [{ text: 'Website', url: 'https://rifri-typo.ch', shortUrl: 'rifri-typo.ch' }]
+		links: [{ url: 'https://rifri-typo.ch', shortUrl: 'rifri-typo.ch', highlight: true }]
 	},
 	toAthena: {
 		title: 'To Athena',
@@ -48,25 +43,27 @@ export const projectList = {
 		tech_stack: ['html, sass, js, php', 'kirby cms', 'ecwid e-commerce', 'bandsintown API'],
 		about_text:
 			'Website for Mara Danz a swiss fashion designer. The website shows her collections in a interactive and unusual way. Visitors can buy her self made pieces directly on her website.',
-		links: [{ text: 'Website', url: 'https://toathenamusic.com', shortUrl: 'toathenamusic.com' }]
+		links: [{ url: 'https://toathenamusic.com', shortUrl: 'toathenamusic.com', highlight: true }]
 	},
 	flavioLeone: {
 		title: 'Flavio Leone',
 		year: '2021',
 		role: ['web development'],
 		tech_stack: ['html, sass, js, php', 'kirby cms'],
+		collaborators: 'web design: <a href="https://kuba.studio" target="_blank">KUBA CS</a>',
 		about_text:
 			'Website for Mara Danz a swiss fashion designer. The website shows her collections in a interactive and unusual way. Visitors can buy her self made pieces directly on her website.',
-		links: [{ text: 'Website', url: 'https://flavioleone.ch', shortUrl: 'flavioleone.ch' }]
+		links: [{ url: 'https://flavioleone.ch', shortUrl: 'flavioleone.ch', highlight: true }]
 	},
 	teehuesli: {
 		title: 'Teehuesli Hohenstein',
 		year: '2022',
 		role: ['web development'],
 		tech_stack: ['html, sass, js, php', 'kirby cms'],
-		collaborators: 'Lilly, Sodamithimbeer',
+		collaborators:
+			'web design: <a href="https://sodamithimbeer.ch" target="_blank">soda mit himbeer</a>',
 		about_text:
 			'Website for Mara Danz a swiss fashion designer. The website shows her collections in a interactive and unusual way. Visitors can buy her self made pieces directly on her website.',
-		links: [{ text: 'Website', url: 'https://teehuesli.ch', shortUrl: 'teehuesli.ch' }]
+		links: [{ url: 'https://teehuesli.ch', shortUrl: 'teehuesli.ch', highlight: true }]
 	}
 };
