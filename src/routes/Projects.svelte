@@ -7,7 +7,7 @@
 		{#each Object.values(projectList) as project}
 			<li class="">
 				<div class="">
-					<h2 class="text-4xl mb-2">{project.title} / <span> {project.year}</span></h2>
+					<h2 class="text-5xl mb-2">{project.title} / <span> {project.year}</span></h2>
 				</div>
 				<div class="grid grid-cols-2 md:grid-cols-4 gap-x-4 md:gap-x-8 gap-y-4">
 					<div class="col-span-2">

@@ -34,6 +34,7 @@ html {
 	scroll-behavior: smooth;
 	scroll-padding-top: 4rem;
 	font-size: 18px;
+	@apply scroll-smooth md:scroll-p-16 scroll-p-32 text-base;
 }
 
 body {
@@ -53,7 +54,7 @@ section {
 }
 
 .btn-link {
-	@apply border border-black rounded-md shadow-[0px_2px_0_black] px-2 inline-block bg-white transition-all hover:shadow-[0px_1px_0_black] hover:translate-y-[2px];
+	@apply border border-black rounded-md shadow-[0px_2px_0_black] px-2 inline-block bg-white transition-all hover:shadow-[0px_0px_0px_black] hover:translate-y-[2px];
 }
 
 .btn-link-highlight {

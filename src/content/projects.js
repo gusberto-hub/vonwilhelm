@@ -28,7 +28,7 @@ export const projectList = {
 	},
 	rifriTypo: {
 		title: 'Richard Frick',
-		year: '2021',
+		year: '2022',
 		role: ['web development'],
 		tech_stack: ['kirby cms', 'snipcart e-commerce', 'swiper.js'],
 		collaborators: 'web design: <a href="https://kuba.studio" target="_blank">KUBA CS</a>',

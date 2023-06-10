@@ -13,7 +13,7 @@
 		</g>
 	</svg>
 	<p
-		class="font-serif text-lg transition-all opacity-0 relative -left-8 group-hover:opacity-100 group-hover:left-0"
+		class="hidden md:block font-serif text-lg transition-all opacity-0 relative -left-8 group-hover:opacity-100 group-hover:left-0"
 	>
 		Von Wilhelm
 	</p>

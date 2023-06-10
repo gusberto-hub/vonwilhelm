@@ -35,15 +35,11 @@
 	};
 </script>
 
-<div
-	class="w-screen max-w-6xl mx-auto flex items-start"
-	on:mouseover={checkTarget}
-	on:focus={checkTarget}
->
-	<aside class="hidden md:block sticky left-0 top-0 p-2 flex-shrink-0">
-		<a href="/" class=""><Logo /></a>
-		<nav class="mt-12">
-			<ul class="flex flex-col">
+<div class="w-screen max-w-6xl mx-auto flex flex-col md:flex-row items-start">
+	<aside class="sticky left-0 top-0 p-2 flex-shrink-0 flex md:flex-col gap-x-8">
+		<a href="/" class="flex-shrink-0"><Logo /></a>
+		<nav class="md:mt-12">
+			<ul class="flex md:flex-col flex-wrap gap-x-8">
 				<li><a href="/#projects">projects</a></li>
 				<li><a href="/#about-me">about me</a></li>
 				<li><a href="/#creative-coding">creative coding</a></li>
@@ -52,7 +48,7 @@
 		</nav>
 	</aside>
 
-	<main class="w-full flex-1">
+	<main class="w-full flex-1 flex flex-col gap-y-16">
 		<slot />
 	</main>
 	<div class="fixed left-0 top-0 -z-10">

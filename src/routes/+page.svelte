@@ -7,10 +7,10 @@
 
 <section class="pb-4 flex items-center justify-center text-center min-h-[40rem]">
 	<div class="">
+		<h1 class="text-7xl text-center my-12">Von Wilhelm <span class="block text-4xl">Web Developer</span></h1>
 		<p class="max-w-2xl">
 			{@html generalContent.homeIntro}
 		</p>
-		<h1 class="text-5xl text-center my-12">Von Wilhelm</h1>
 	</div>
 </section>
 
