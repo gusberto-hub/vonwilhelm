@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+
+@layer base {
+	html {
+		@apply font-sans;
+	}
+}
+
+@font-face {
+	font-family: 'Mondwest';
+	src: url(./fonts/Mondwest-Regular.otf) format('opentype');
+}
+@font-face {
+	font-family: 'GT Pressura Mono';
+	src: url(./fonts/GT-Pressura-Mono.woff) format('woff');
+}
+@font-face {
+	font-family: 'GT Pressura Pro Mono Light';
+	src: url(./fonts/GT-Pressura-Pro-Mono-Light.otf) format('opentype');
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 300;
+	@apply font-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+	scroll-padding-top: 4rem;
+	font-size: 18px;
+}
+
+body {
+	background-color: #e5e2e1;
+}
+
+.role-list ul li {
+	display: inline-block;
+}
+
+section {
+	@apply px-4 md:pl-48;
+}
+
+.haha {
+	border: 2px solid red;
+}
+
+.btn-link {
+	@apply border border-black rounded-md shadow-[0px_2px_0_black] px-2;
+}
+
+@tailwind utilities;
