@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>von wilhelm</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="site site--default" id="site">
+        <main class="site__scroller" id="scroller" aria-label="Background image sections"></main>
+        <div class="site__darken" id="darken-layer" aria-hidden="true"></div>
+
+        <header class="nav">
+            <div class="nav__logo" id="logo">von wilhelm</div>
+            <button class="nav__toggle" id="noise-toggle" type="button" aria-pressed="false">
+                noise off
+            </button>
+        </header>
+
+        <section class="projects" id="projects" aria-label="Project list">
+            <ul class="projects__list" id="project-list"></ul>
+        </section>
+
+        <footer class="caption" id="caption" aria-live="polite"></footer>
+
+        <template id="about-template">
+            <div class="site__about-bg" aria-hidden="true"></div>
+            <article class="site__about" aria-label="About Giuseppe Di Guglielmo">
+                <div class="site__about-media">
+                    <img class="site__about-photo" src="" alt="Portrait of Giuseppe Di Guglielmo">
+                </div>
+                <div class="site__about-copy">
+                    <div class="site__about-text">
+                        <p>
+                            <span class='block text-4xl'>Grüezi,</span> I’m a frontend developer who fell in love with coding in April 2020. Before that, I spent 15 years in the architecture world, which gave me a strong eye for detail and a lasting appreciation for good design.
+                        </p>
+                        <p>
+                            These days I enjoy building thoughtful, playful interfaces on the web. When I’m not coding, I like wandering around with a camera — this site is also a little home for some of my favourite shots, moments, and memories I’ve captured along the way.
+                        </p>
+                    </div>
+                    <div class="site__about-links">
+                        <a class="site__about-link" data-social="github" target="_blank" rel="noreferrer noopener">
+                            github
+                        </a>
+                        <a class="site__about-link" data-social="linkedin" target="_blank" rel="noreferrer noopener">
+                            linkedin
+                        </a>
+                    </div>
+                </div>
+            </article>
+        </template>
+    </div>
+
+    <script type="module" src="./app.js"></script>
+</body>
+</html>

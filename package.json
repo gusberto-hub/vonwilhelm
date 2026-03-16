@@ -1,0 +1,13 @@
+{
+  "name": "vonwilhelm-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "images:optimize": "node ./scripts/optimize-images.mjs",
+    "build": "npm run images:optimize"
+  },
+  "devDependencies": {
+    "sharp": "^0.34.4"
+  }
+}

@@ -45,16 +45,16 @@ export const projectList = {
 			'Website for Mara Danz a swiss fashion designer. The website shows her collections in a interactive and unusual way. Visitors can buy her self made pieces directly on her website.',
 		links: [{ url: 'https://toathenamusic.com', shortUrl: 'toathenamusic.com', highlight: true }]
 	},
-	flavioLeone: {
-		title: 'Flavio Leone',
-		year: '2021',
-		role: ['web development'],
-		tech_stack: ['html, sass, js, php', 'kirby cms'],
-		collaborators: 'web design: <a href="https://kuba.studio" target="_blank">KUBA CS</a>',
-		about_text:
-			'Website for Mara Danz a swiss fashion designer. The website shows her collections in a interactive and unusual way. Visitors can buy her self made pieces directly on her website.',
-		links: [{ url: 'https://flavioleone.ch', shortUrl: 'flavioleone.ch', highlight: true }]
-	},
+	// flavioLeone: {
+	// 	title: 'Flavio Leone',
+	// 	year: '2021',
+	// 	role: ['web development'],
+	// 	tech_stack: ['html, sass, js, php', 'kirby cms'],
+	// 	collaborators: 'web design: <a href="https://kuba.studio" target="_blank">KUBA CS</a>',
+	// 	about_text:
+	// 		'Website for Mara Danz a swiss fashion designer. The website shows her collections in a interactive and unusual way. Visitors can buy her self made pieces directly on her website.',
+	// 	links: [{ url: 'https://flavioleone.ch', shortUrl: 'flavioleone.ch', highlight: true }]
+	// },
 	teehuesli: {
 		title: 'Teehuesli Hohenstein',
 		year: '2022',
